@@ -1,76 +1,35 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Lucida Grande";
-}
-
-a {
-  text-decoration: none;
-}
-
-.clear {
-  clear: left;
-}
-
-
-
-.utama-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
-  background-size: cover;
+.anggota h3 {
+  text-align: center;
   color: white;
+}
+
+.anggota p {
+  font-size: 16px;
+  font-weight: bold;
   text-align: center;
+  color: white;
 }
 
-.extra1-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f2a39d;
-  text-align: center;
-}
-
-.extra2-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #ffffff;
-  text-align: center;
-}
-
-.extra2-heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #ad6002;
-}
-
-.extra2-heading h2 {
-  font-weight: normal;
-}
-
-.klien {
+.anggota {
   float: left;
-  width: 25%;
+  border-style: 6px;
+  border-color: #146b2c;
+  margin: 10px;
+  border-radius: 20px 20px 80px 80px;
+  background-color: rgba(50, 168, 82, 0.7);
+  width: 18%;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4);
 }
 
-.klien-logo {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
-}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 15px;
-  color: #ad6002;
+.foto-profil {
+  height: 200px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 200px;
+  border-color: #146b2c;
+  display: block;
 }
